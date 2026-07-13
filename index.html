@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>INFO SALUD</title>
+
+    <link
+        rel="stylesheet"
+        href="./css/styles.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ==================================================
+         ENCABEZADO PRINCIPAL
+    =================================================== -->
+
+    <header class="encabezado-principal">
+
+        <div class="contenedor encabezado-contenido">
+
+            <a
+                href="index.html"
+                class="logo-encabezado"
+            >
+                <img
+                    src="./img/GobiernoMexico.png"
+                    alt="Gobierno de México e Instituto Mexicano del Seguro Social"
+                >
+            </a>
+
+            <nav class="menu-superior">
+
+                <a
+                    href="https://www.gob.mx/segob/documentos/tramites-y-servicios-17706"
+                    target="_blank"
+                >
+                    Trámites
+                </a>
+
+                <a
+                    href="https://www.gob.mx/"
+                    target="_blank"
+                >
+                    Gobierno
+                </a>
+
+                <button
+                    type="button"
+                    class="boton-icono"
+                    aria-label="Buscar"
+                >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         IDENTIDAD DEL PORTAL
+    =================================================== -->
+
+    <section class="barra-identidad">
+
+        <div class="contenedor identidad-contenido">
+
+            <div class="identidad">
+
+                <a   href="index.html"    class="logo-IA"
+                >
+                    <img  src="./img/IA_Salud.png" alt="Información e innovación en salud"                  >
+                </a>
+
+            </div>
+
+            <div class="titulo-sitio">
+
+                <h1>Dirección de Prestaciones Médicas</h1>
+
+                <p>División de Información en Salud</p>
+
+                <p>
+                    Coordinación de Información e Innovación en Salud
+                    <strong>CIIS</strong>
+                </p>
+
+            </div>
+
+            <div class="acciones-usuario">
+
+                <div class="buscador-panel">
+
+                    <div class="campo-buscador">
+
+                        <input
+                            type="search"
+                            id="buscadorSuperior"
+                            placeholder="Buscar..."
+                            autocomplete="off"
+                            aria-label="Buscar en el portal"
+                        >
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CONTENIDO PRINCIPAL
+    =================================================== -->
+
+    <!--<div class="layout-principal">
+
+
+         ==============================================
+             MENÚ LATERAL
+        =============================================== -->
+
+        <!-- <aside
+            class="menu-lateral"
+            id="menuLateral"
+        >
+
+            <nav>
+
+                <a
+                    href="index.html"
+                    class="menu-item activo"
+                >
+                    <i class="fa-solid fa-house"></i>
+                    <span>Inicio</span>
+                </a>
+
+
+                <button
+                    type="button"
+                    class="menu-item menu-desplegable"
+                >
+                    <span>
+                        <i class="fa-solid fa-chart-line"></i>
+                        Información Integrada
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="menu-item menu-desplegable"
+                >
+                    <span>
+                        <i class="fa-solid fa-briefcase"></i>
+                        Recursos
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="menu-item menu-desplegable"
+                >
+                    <span>
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        Seguimiento y Monitoreo
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="menu-item menu-desplegable"
+                >
+                    <span>
+                        <i class="fa-solid fa-stethoscope"></i>
+                        Consulta Externa
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+
+                <button
+                    type="button"
+                    class="menu-item menu-desplegable"
+                >
+                    <span>
+                        <i class="fa-solid fa-database"></i>
+                        Catálogos y Sistemas
+                    </span>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+
+                <a
+                    href="#"
+                    class="menu-item"
+                >
+                    <i class="fa-regular fa-file-lines"></i>
+                    <span>Reportes y Publicaciones</span>
+                </a>
+
+
+                <a
+                    href="#"
+                    class="menu-item"
+                >
+                    <i class="fa-solid fa-link"></i>
+                    <span>Enlaces de Interés</span>
+                </a>
+
+
+                <a
+                    href="#"
+                    class="menu-item"
+                >
+                    <i class="fa-regular fa-circle-question"></i>
+                    <span>Ayuda y Soporte</span>
+                </a>
+
+            </nav>
+
+
+            <div class="fecha-lateral">
+
+                <p>
+                    <i class="fa-regular fa-calendar"></i>
+                    <span id="fechaActual"></span>
+                </p>
+
+                <p>
+                    <i class="fa-regular fa-clock"></i>
+                    <span id="horaActual"></span>
+                </p>
+
+            </div>
+
+        </aside> 
+
+
+        <!-- ==============================================
+             CONTENIDO CENTRAL
+        =============================================== -->
+
+        <main class="contenido-principal">
+
+            <section class="panel panel-accesos">
+
+
+                <!-- Encabezado desplegable -->
+
+                <button
+                    type="button"
+                    class="encabezado-accesos"
+                    id="btnAccesos"
+                    aria-expanded="true"
+                    aria-controls="panelAccesos"
+                >
+
+                    <span>
+                        <i class="fa-solid fa-bolt"></i>
+                        Accesos rápidos
+                    </span>
+
+                    <i
+                        class="fa-solid fa-chevron-up flecha-accesos"
+                    ></i>
+
+                </button>
+
+
+                <!-- Accesos rápidos -->
+
+                <div
+                    class="accesos-grid"
+                    id="panelAccesos"
+                >
+
+
+                    <a
+                        href="http://11.254.34.46/consultas"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-stethoscope"></i>
+                        <span>Consultas Médicas</span>
+                    </a>
+
+
+                    <a
+                        href="http://11.254.34.46/egresos18/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-hospital"></i>
+                        <span>Egresos Hospitalarios</span>
+                    </a>
+
+
+                    <a
+                        href="http://11.254.34.46/diaTipico16/interfazdiatipico.aspx"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <span>Día Típico Unidad - OOAD</span>
+                    </a>
+
+
+                    <a
+                        href="http://infosalud.imss.gob.mx:8095/LoginUnico.aspx?mensajeLogin=%27La%20sessi%c3%b3n%20expir%c3%b3,%20ingresar%20de%20nuevo%27"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>IFU en Línea</span>
+                    </a>
+
+
+                    <a
+                        href="http://11.254.12.92:8092/Autentificacion/Acceso"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-clipboard-check"></i>
+                        <span>Bitácora de recepción</span>
+                    </a>
+
+
+                    <a
+                        href="http://11.254.12.92:8086/Autentificacion/Acceso"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-cloud-arrow-down"></i>
+                        <span>Extractor</span>
+                    </a>
+
+
+                    <a
+                        href="http://10.250.10.137:85/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        <span>Editor MOCE</span>
+                    </a>
+
+
+                    <a
+                        href="http://172.29.21.11:90/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <span>IDS</span>
+                    </a>
+
+
+                    <a
+                        href="http://infosalud.imss.gob.mx:8093/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-cube"></i>
+                        <span>SISPA</span>
+                    </a>
+
+
+                    <a
+                        href="http://infosalud.imss.gob.mx:8094/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-cubes"></i>
+                        <span>SAPB</span>
+                    </a>
+
+
+                    <a
+                        href="http://infosalud.imss.gob.mx:8096/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span>SIMOC Catálogos</span>
+                    </a>
+
+
+                    <a
+                        href="http://infosalud.imss.gob.mx:8097/"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-building-shield"></i>
+                        <span>INDOQC UMAE</span>
+                    </a>
+
+
+                    <a
+                        href="https://app.powerbi.com/groups/me/reports/bf7d9c45-c768-460a-b6a7-0bc1a5fec191/5c54d09085731ab267a0?experience=power-bi"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-chart-column"></i>
+                        <span>Tableros Consultas 2026 Power BI</span>
+                    </a>
+
+
+                    <a
+                        href="https://app.powerbi.com/groups/me/reports/e8be0ca9-1223-48cb-81db-334c4a0d20af/a19daf894511070d8134?experience=power-bi"
+                        class="acceso-rapido"
+                        target="_blank"
+                    >
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Tableros Consultas 2025 Power BI</span>
+                    </a>
+
+
+                </div>
+
+            </section>
+
+<!-- =====================================================
+     BLOQUES DE INFORMACIÓN
+====================================================== -->
+
+<section class="seccion-bloques">
+
+    <div class="titulo-seccion-bloques">
+        <div>
+            <span class="subtitulo-bloques">Información institucional</span>
+            <h2>Consulta nuestros recursos</h2>
+           
+        </div>
+    </div>
+
+    <div class="bloques-grid">
+        
+<!-- BLOQUE 1: Información Integrada -->
+<article class="bloque-informacion" data-busqueda="información integrada cierres mensuales estadísticas nacionales día típico efemérides diagnósticos datos abiertos memoria estadística">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-chart-pie"></i></span>
+         <span class="bloque-titulo">
+            <strong> Información Integrada con Cierres Mensuales</strong>
+           <!-- <small>Cierres mensuales, estadísticas nacionales y datos abiertos</small>-->
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li>
+<!-- <li><a href="#"><i class="fa-solid fa-link"></i><span>Estadísticas Nacionales 2026-2019</span></a></li></ul>
+    </div> -->
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-chart-column"></i>Estadísticas Nacionales</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2026</a>
+<a href="#">2022</a>
+<a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2023</a>
+<a href="#">2019</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-regular fa-calendar-days"></i>Día Típico (Giras)</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2026</a>
+<a href="#">2025</a>
+<a href="#">2024</a>
+<a href="#">2023</a>
+<a href="#">2022-2016</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-chart-pie"></i>Publicaciones y estadísticas</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Efemérides 2026 - 2017</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Frecuencia de Diagnósticos por servicio 2025 - 2019 «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Principales motivos de Servicio 2025-2012</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Datos Abiertos</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Memoria Estadística</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 2: Consulta Externa -->
+<article class="bloque-informacion" data-busqueda="consulta externa especialidades urgencias medicina familiar dental horas trabajadas productividad fin semana paramédicas">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-user-doctor"></i></span>
+        <span class="bloque-titulo">
+            <strong>Consulta Externa</strong>
+            <small>Especialidades, urgencias, medicina familiar y productividad</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-user-doctor"></i>2026</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Especialidades «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Urgencias «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Medicina Familiar «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Dental «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Horas trabajadas 2do y 3er Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Productividad Fin de Semana 1er Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 1er. Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 2do. y 3er. Nivel «Consultar IDS»</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-regular fa-calendar"></i>2025</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Horas trabajadas 2do y 3er Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Productividad Fin de Semana 1er Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 1er. Nivel</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-stethoscope"></i>2024 - 2012</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Especialidades</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Urgencias</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Medicina Familiar</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Dental</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Horas Trabajadas 2do. y 3er. Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Productividad Fin de Semana 1er Nivel 2014-2020</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Productividad Fin de Semana 1er Nivel 2021-2024</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 1er Nivel 2014-2020</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 1er Nivel 2021-2024</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Atenciones Paramédicas - 2do. y 3er. Nivel</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 3: Hospital -->
+<article class="bloque-informacion" data-busqueda="hospital egresos nacidos vivos intervenciones quirúrgicas partos cesáreas uci subrogados">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-hospital"></i></span>
+        <span class="bloque-titulo">
+            <strong>Hospital</strong>
+            <small>Egresos, nacidos vivos, intervenciones, UCI y subrogados</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-hospital"></i>2026</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Egresos «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Nacidos Vivos - Unidad Atención</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Nacidos Vivos - Edad de la madre</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Intervenciones «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Intervenciones quirúrgicas por especialidad «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Partos y Cesáreas</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>UCI - Unidad</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Información Complementaria al cierre de mes</span></a></li>
+<li><a href="#"><i class="fa-solid fa-hospital"></i><span>Servicios Médicos Subrogados al cierre mensual <span class="etiqueta-nuevo">Nuevo</span></span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-bed-pulse"></i>2012-2024</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Egresos - OOAD - UMAE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Egresos - Unidad médica</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Intervenciones</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>UCI - Unidad</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Indicadores de Calidad de la Información</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 4: Defunciones -->
+<article class="bloque-informacion" data-busqueda="defunciones unidad atención adscripción 2025 2004 2024">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-cross"></i></span>
+        <span class="bloque-titulo">
+            <strong>Defunciones</strong>
+            <small>Información por unidad de atención y adscripción</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-cross"></i>2025</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Unidad de Atención «Consultar IDS»</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Unidad de Adscripción «Consultar IDS»</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-regular fa-calendar"></i>2004-2024</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Unidad de Atención</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Unidad de Adscripción</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 5: Censos -->
+<article class="bloque-informacion" data-busqueda="censos diabetes hipertensión dm hta epoc asma nutricional trastornos mentales oncológico">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-clipboard-list"></i></span>
+        <span class="bloque-titulo">
+            <strong>Censos</strong>
+            <small>Censos de enfermedades crónicas, nutrición y oncología</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-heart-pulse"></i>Pacientes con DM, HTA</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2025</a>
+<a href="#">2024</a>
+<a href="#">2023</a>
+<a href="#">2022</a>
+<a href="#">2021</a>
+<a href="#">2020</a>
+<a href="#">2019</a>
+<a href="#">2018</a>
+<a href="#">2017</a>
+<a href="#">2016</a>
+<a href="#">2015</a>
+<a href="#">2014</a>
+<a href="#">2013</a>
+<a href="#">2012</a>
+<a href="#">2011</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-lungs"></i>Pacientes con EPOC y ASMA</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2023</a>
+<a href="#">2022</a>
+<a href="#">2021</a>
+<a href="#">2020</a>
+<a href="#">2019</a>
+<a href="#">2018</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-apple-whole"></i>Evaluación Nutricional</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2024</a>
+<a href="#">2023</a>
+<a href="#">2022</a>
+<a href="#">2021</a>
+<a href="#">2020</a>
+<a href="#">2019</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-brain"></i>Pacientes con Trastornos Mentales</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2024</a>
+<a href="#">2023</a>
+<a href="#">2022</a>
+<a href="#">2021</a>
+<a href="#">2020</a>
+<a href="#">2019</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-ribbon"></i>Censo Oncológico</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Consultar Censo Oncológico</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 6: Recursos -->
+<article class="bloque-informacion" data-busqueda="recursos ifu inventario unidades médicas indicador personal población reporte dir dpm siais consultorios">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-folder-open"></i></span>
+        <span class="bloque-titulo">
+            <strong>Recursos</strong>
+            <small>IFU, unidades médicas, población e indicadores</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-building"></i>Inventario Físico de Unidades (IFU)</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2026</a>
+<a href="#">2022</a>
+<a href="#">2018</a>
+<a href="#">2014</a>
+<a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2017</a>
+<a href="#">2013</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2016</a>
+<a href="#">2012</a>
+<a href="#">2023</a>
+<a href="#">2019</a>
+<a href="#">2015</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-hospital-user"></i>Catálogo de Unidades Médicas</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2026</a>
+<a href="#">2022</a>
+<a href="#">2018</a>
+<a href="#">2014</a>
+<a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2017</a>
+<a href="#">2013</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2016</a>
+<a href="#">2023</a>
+<a href="#">2019</a>
+<a href="#">2015</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-users"></i>Indicador de Personal</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Consultar Indicador de Personal</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-people-group"></i>Población</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Reporte DIR 2004 – 2026</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-file-chart-column"></i>Reporte DPM</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2026</a>
+<a href="#">2022</a>
+<a href="#">2018</a>
+<a href="#">2014</a>
+<a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2017</a>
+<a href="#">2013</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2016</a>
+<a href="#">2012</a>
+<a href="#">2023</a>
+<a href="#">2019</a>
+<a href="#">2015</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-users-viewfinder"></i>Población usuaria</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>2004-2025 Unidad</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2005-2025 OOAD</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2025</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2021</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2017</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2024</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2020</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2023</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2019</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2022</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2do-3er Nivel SIMO Central - 2018</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-user-doctor"></i>Población Adscrita a Médico Familiar (SIAIS)</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2017</a>
+<a href="#">2013</a>
+<a href="#">2009</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2016</a>
+<a href="#">2012</a>
+<a href="#">2008</a>
+<a href="#">2023</a>
+<a href="#">2019</a>
+<a href="#">2015</a>
+<a href="#">2011</a>
+<a href="#">2007</a>
+<a href="#">2022</a>
+<a href="#">2018</a>
+<a href="#">2014</a>
+<a href="#">2010</a></div>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-house-medical"></i>Total Consultorios de Medicina Familiar</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2025</a>
+<a href="#">2021</a>
+<a href="#">2024</a>
+<a href="#">2020</a>
+<a href="#">2023</a>
+<a href="#">2019</a>
+<a href="#">2022</a>
+<a href="#">2018</a></div>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 7: Catálogos para los SI -->
+<article class="bloque-informacion" data-busqueda="catálogos sistemas información cie 11 cie10 cie9 simf siais unidades servicios especialidades">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-database"></i></span>
+        <span class="bloque-titulo">
+            <strong>Catálogos para los SI</strong>
+            <small>CIE, servicios, unidades, SIAIS y catálogos institucionales</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-database"></i>Catálogos disponibles</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Buscador CIE - 11</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Clasif. Inter. de Enfermedades</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CIE 10 Actualizaciones 2026</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CIE 9MC Act-2026</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CIE10-Códigos SIMF</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Lista Mexicana</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CIE10 3 digitos</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Equivalencia CIE9-CIE10</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CIF-Infancia-Adolescencia</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Servicios Profesionales antes paramédicas</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Servicios y especialidades</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Maestro</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Conversión/Equivalencia</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo de Subdelegaciones</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogos Acceder Unificado</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Unidades Acceder Unificado</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Códigos Postales UMF</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Sistemas en operación en Unidades Médicas</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Referencias peso y talla para certificado muerte fetal</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo de Acciones – Actividades (SIAIS)</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Por servicio</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Por tiempo determinado</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Actividades PTDAM</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogos por Unidad Médica (Hospitalización - SIMO Central)</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo maestro de semanas estadísticas</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo de claves EPI-IM</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Sistema de Información de Atención Integral de la Salud (SIAIS)</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo Servicios y Especialidades – 1er. Nivel</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Nomenclatura Consultorios SIAIS-SIMF</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Clasificación Internacional de Enfermedades (CIE-10)</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo del Informe Semanal de Vigilancia Epidemiológica</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Clasificación Internacional de Procedimientos (CIE-9MC)</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo acciones de promoción, prevención y actividades</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Catálogo de Vacunas y Dosis - SIAIS</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 8: Sitios de interés -->
+<article class="bloque-informacion" data-busqueda="sitios interés comunidades ece csi moce simf simo pheds rlc siais imss bienestar inai">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-link"></i></span>
+        <span class="bloque-titulo">
+            <strong>Sitios de interés</strong>
+            <small>Sistemas, comunidades y portales relacionados</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-globe"></i>Sitios disponibles</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Comunidades</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>ECE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>CSI</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>MOCE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>SIMF</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>SIMO Central</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>PHEDS – Urgencias - Hospitalización</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>PHEDS – Programación Quirúrgica</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Red Local de Consulta RLC-SIAIS</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Coordinación de Planeación de Servicios Médicos de Apoyo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>IMSS Bienestar</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Tableros de Gestión de la DPM</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>INAI</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 9: Documentos Normativos y de Sistemas -->
+<article class="bloque-informacion" data-busqueda="documentos normativos sistemas cemece auxiliares codificación covid directrices sector estadístico">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-regular fa-file-lines"></i></span>
+        <span class="bloque-titulo">
+            <strong>Documentos Normativos y de Sistemas</strong>
+            <small>Normatividad, codificación y directrices estadísticas</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-regular fa-file-lines"></i>Documentos Normativos</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>CEMECE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Auxiliares de codificación 2025</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Acuerdo COVID-19</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Auxiliares 1er. Semestre 2021</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Auxiliares 2do. Semestre 2021</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Directrices relacionadas con el sector estadístico</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 10: Seguimiento Diario/Semanal/Mensual -->
+<article class="bloque-informacion" data-busqueda="seguimiento diario semanal mensual información básica productividad atenciones médicas siais simo triage indoq seed ifu indicadores oportunidad jornadas">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+        <span class="bloque-titulo">
+            <strong>Seguimiento Diario/Semanal/Mensual</strong>
+            <small>Monitoreo, productividad, reportes e indicadores</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-chart-line"></i>Información Básica en Salud</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-notes-medical"></i><span>Información Básica en Salud <span class="etiqueta-nuevo">Nuevo</span></span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Productividad semana a semana 2019-2025</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-stethoscope"></i>Atenciones médicas</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>2025 - Reporte</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2024 - Reporte</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2024 - Ranking Atn. semanal</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2024 - Ranking Atn. acumulado</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2023 - Reporte</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2023 - Ranking Atn. semanal</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2023 - Ranking Atn. acumulado</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>2023 - Metas 2023</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-heart-pulse"></i>SIAIS</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Fecha de atención</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Cierre</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Vigilancia Prenatal</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Reportes</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-chart-column"></i>SIMO Central (diario-semanal)</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Consulta Externa de Especialidades - Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Consulta Externa de Especialidades - Productividad de Consulta 2025</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Consulta Externa de Especialidades - Productividad por consultorio</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Hospitalización - SIMO Central - Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Hospitalización - SIMO Central - Reportes</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Información complementaria - Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Información complementaria - Reportes</span></a></li>
+<li><a href="#"><i class="fa-solid fa-hospital"></i><span>Servicios Médicos Subrogados <span class="etiqueta-nuevo">Nuevo</span></span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Métodos de Planificación Familiar</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Métodos post evento Obstétrico</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>TRIAGE - Delegaciones</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>TRIAGE - UMAE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>INDOQ Central - Delegaciones</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>INDOQ Central - UMAE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Cédula de Supervisión OOAD</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Cédula de Supervisión UMAE</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>SEED - Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>IFU en línea - Monitoreo</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>IFU Tablero Estadístico</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>IFU Seguimiento Solicitudes</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-gauge-high"></i>Indicadores de Oportunidad</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Indicador CVE 02</span></a></li>
+<li><a href="#"><i class="fa-solid fa-link"></i><span>Indicador CVE 03</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-rotate"></i>Jornadas de recuperación de servicios</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <div class="lista-anios"><a href="#">2024</a>
+<a href="#">2023</a>
+<a href="#">2022</a></div>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 11: Capacitación -->
+<article class="bloque-informacion" data-busqueda="capacitación material cursos">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-graduation-cap"></i></span>
+        <span class="bloque-titulo">
+            <strong>Capacitación</strong>
+            <small>Material de apoyo para capacitación</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-graduation-cap"></i>Material disponible</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Material de capacitación</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+
+<!-- BLOQUE 12: Oficios, Circulares y Validación -->
+<article class="bloque-informacion" data-busqueda="oficios circulares validación información proceso integración nivel central">
+    <button type="button" class="bloque-encabezado" aria-expanded="false">
+        <span class="bloque-icono"><i class="fa-solid fa-file-circle-check"></i></span>
+        <span class="bloque-titulo">
+            <strong>Oficios, Circulares y Validación</strong>
+            <small>Oficios de nivel central y procesos de validación</small>
+        </span>
+        <i class="fa-solid fa-chevron-down bloque-flecha"></i>
+    </button>
+    <div class="bloque-contenido">
+        <div class="grupos-recursos">
+            
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-envelope-open-text"></i>Oficios/Circulares</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Oficios gestionados por Nivel Central</span></a></li></ul>
+    </div>
+</details>
+<details class="grupo-recurso">
+    <summary>
+        <span><i class="fa-solid fa-circle-check"></i>Validación de Información</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </summary>
+    <div class="grupo-recurso-contenido">
+        <ul class="lista-recursos lista-recursos-interna"><li><a href="#"><i class="fa-solid fa-link"></i><span>Proceso de Integración de Información</span></a></li></ul>
+    </div>
+</details>
+        </div>
+    </div>
+</article>
+    </div>
+
+    <div class="mensaje-sin-resultados" id="mensajeSinResultados" hidden>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <strong>No se encontraron resultados</strong>
+        <span>Prueba escribiendo otro nombre o palabra.</span>
+    </div>
+
+</section>
+
+</main>
+
+<!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script src="./js/javaScript.js"></script>
+
+</body>
+
+</html>
