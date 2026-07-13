@@ -127,6 +127,7 @@ img {
     background:
         linear-gradient(
             90deg,
+            
             var(--guinda),
             var(--guinda-oscuro)
         );
@@ -1252,18 +1253,28 @@ img {
 
     margin-bottom: 18px;
 }
+.titulo-seccion-bloques{
 
-.subtitulo-bloques {
-    display: inline-block;
+    display:flex;
 
-    margin-bottom: 6px;
+    justify-content:center;
 
-    color: var(--dorado);
+    align-items:center;
 
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    margin-bottom:20px;
+}
+
+.subtitulo-bloques{
+
+    color:var(--dorado);
+
+    font-size:33px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
 }
 
 .titulo-seccion-bloques h2 {
