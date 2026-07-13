@@ -1245,14 +1245,6 @@ img {
 .seccion-bloques {
     margin-top: 24px;
 }
-
-.titulo-seccion-bloques {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-
-    margin-bottom: 18px;
-}
 .titulo-seccion-bloques{
 
     display:flex;
@@ -1261,7 +1253,12 @@ img {
 
     align-items:center;
 
-    margin-bottom:20px;
+    margin-top:40px;      /* Espacio respecto al encabezado */
+
+    margin-bottom:30px;   /* Espacio respecto a Accesos rápidos */
+
+    width:100%;
+
 }
 
 .subtitulo-bloques{
@@ -1274,7 +1271,8 @@ img {
 
     text-transform:uppercase;
 
-    letter-spacing:1px;
+    letter-spacing:2px;
+
 }
 
 .titulo-seccion-bloques h2 {
