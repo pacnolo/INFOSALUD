@@ -1,68 +1,43 @@
-/* =========================================================
-   VARIABLES
-========================================================= */
-/*
-:root {
-    --guinda: #6f0d35;
-    --guinda-oscuro: #4f0825;
-    --guinda-claro: #8f1747;
-
-    --verde: #0c5c4c;
-    --verde-oscuro: #064438;
-    --verde-claro: #167561;
-
-    --dorado: #bc955c;
-    --dorado-claro: #d1ad76;
-
-    --blanco: #ffffff;
-    --gris-fondo: #f4f6f8;
-    --gris-claro: #e6e9ed;
-    --gris-texto: #4c535a;
-    --texto: #15252d;
-
-    --sombra: 0 4px 16px rgba(20, 35, 45, 0.08);
-    --radio: 16px;
-}
-*/
 
 /* =========================================================
    PALETA INSTITUCIONAL GOBIERNO DE MÉXICO / IMSS
-========================================================= */
+========================================================= */:root {
 
-:root{
+    /* Verde institucional */
+    --verde: #00796B;          /* Botones e iconos */
+    --verde-oscuro: #00574B;   /* Títulos */
+    --verde-claro: #009688;    /* Hover */
 
-    /* Verde principal */
-    --verde: #0b6655;
-    --verde-oscuro: #084d41;
-    --verde-claro: #13806b;
+    /* Header */
+    --header: #006B5E;
 
-    /* Dorado institucional */
+    /* Dorado */
     --dorado: #b38b59;
     --dorado-claro: #d3b27d;
 
-    /* Guinda (solo para detalles) */
-    --guinda: #611232;
-    --guinda-oscuro: #4d0f28;
-    --guinda-claro: #7c1d41;
+    /* Guinda: se conserva por compatibilidad,
+       pero se iguala a la nueva paleta verde */
+    --guinda: #00796B;
+    --guinda-oscuro: #00574B;
+    --guinda-claro: #009688;
 
-    /* Fondo */
+    /* Fondos y textos */
     --blanco: #ffffff;
-    --gris-fondo: #f7f7f5;
-    --gris-claro: #e5e5e5;
+    --gris-fondo: #F7FAF9;
+    --gris-claro: #D7E7E3;
     --gris-texto: #5b5b5b;
     --texto: #2c2c2c;
 
-    /* Extras */
-    --borde: #d8d8d8;
-    --hover: #f2efe8;
+    /* Bordes y hover */
+    --borde: #D7E7E3;
+    --hover: #edf7f5;
 
-    --sombra: 0 5px 18px rgba(0,0,0,.10);
+    /* Sombra muy ligera */
+    --sombra: 0 4px 14px rgba(0, 87, 75, 0.06);
 
-    --radio:14px;
-
-    --transicion:.30s ease;
+    --radio: 14px;
+    --transicion: .30s ease;
 }
-
 /* =========================================================
    REINICIO GENERAL
 ========================================================= */
