@@ -1,7 +1,8 @@
 
 /* =========================================================
    PALETA INSTITUCIONAL GOBIERNO DE MÉXICO / IMSS
-========================================================= */:root {
+========================================================= */
+:root {
 
     /* Verde institucional */
     --verde: #00796B;          /* Botones e iconos */
@@ -33,7 +34,7 @@
     --hover: #edf7f5;
 
     /* Sombra muy ligera */
-    --sombra: 0 4px 14px rgba(0, 87, 75, 0.06);
+    --sombra: 0 4px 14px rgba(23, 24, 24, 0.06);
 
     --radio: 14px;
     --transicion: .30s ease;
